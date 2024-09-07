@@ -37,7 +37,7 @@ function operate(first, second, operator) {
         case '*':
             return num1 * num2;
         case '/':
-            if (num === 0) {
+            if (num2 === 0) {
                 alert("Erreur: Division par zéro");
                 return '';
             }
